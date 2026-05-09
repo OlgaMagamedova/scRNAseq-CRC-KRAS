@@ -88,8 +88,7 @@ KRAS-мутантные опухоли характеризуются конст
 ├── scRNAseq_CRC_KRAS.ipynb       # Основной ноутбук с анализом
 ├── SC_RNAseq_crc_KRAS.pptx       # Итоговая презентация
 ├── figures/                     # Графики и визуализации 
-├── data/                        # Исходные и промежуточные данные 
-├── requirements.txt
+├── requirements.txt             # Список необходимых программ
 └── README.md
 ```
 
@@ -155,7 +154,7 @@ ORA и GSEA для интерпретации биологических про�
 - TAM (tumor-associated macrophages)
 - эндотелиальных клеток
 
-![cell type proportion](figures\Cell type proportion_ mKRAS vs wtKRAS.png)
+![cell type proportion](figures/сell_type_proportion_mKRAS_vs_wtKRAS.png)
 
 ---
 
@@ -184,8 +183,8 @@ ORA и GSEA для интерпретации биологических про�
 
 Это указывает на более агрессивный и инвазивный фенотип.
 
-![alt text](figures\network_graph.png".png,)
-![alt text](figures\network_graph_wtKRAS.png)
+![](figures/network_graph.png)
+![](figures/network_graph_wtKRAS.png)
 
 ---
 
@@ -206,8 +205,8 @@ ORA и GSEA для интерпретации биологических про�
 
 Ключевой фактор взаимодействий связан с **ангиогенезом**.
 
-![alt text](figures\sender_recivers.png)
-![alt text](figures\factor_plot.context_boxplot.png)
+![](figures/sender_recivers.png)
+![](figures/factor_plot.context_boxplot.png)
 
 ---
 
@@ -227,7 +226,7 @@ ORA и GSEA для интерпретации биологических про�
 - TGF-β signaling
 
 
-![alt text](figures\dotplot__Pathway enrichment analysis in KRASmut and wt CRC cells.png)
+![](figures/dotplot__Pathway_enrichment.png)
 ---
 
 ###  Drug2Cell
@@ -242,10 +241,10 @@ ORA и GSEA для интерпретации биологических про�
 - иммунотерапия
 - Sotorasib (вероятно, из-за отсутствия KRAS G12C)
 
-![alt text](figures\dotplot__anti_EGFR_dotplot.png)
-![alt text](figures\dotplot__anti_VEGF_dotplot.png)
-![alt text](figures\dotplot__immunotherapy_dotplot.png)
-![alt text](figures\dotplot__ingKRAS_dotplot.png)
+![](figures/dotplot__anti_EGFR_dotplot.png)
+![](figures/dotplot__anti_VEGF_dotplot.png)
+![](figures/dotplot__immunotherapy_dotplot.png)
+![](figures/dotplot__ingKRAS_dotplot.png)
 ---
 
 ##  Заключение
