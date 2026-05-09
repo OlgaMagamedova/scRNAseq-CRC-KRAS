@@ -1,0 +1,35 @@
+# Core single-cell analysis
+scanpy
+anndata
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotnine
+
+# Cell annotation
+celltypist
+
+# Compositional analysis
+pertpy
+
+# Pathway analysis
+gseapy
+blitzgsea
+networkx
+
+# Cell-cell communication
+liana
+cell2cell
+
+# Gene module analysis
+hotspot
+
+# Drug response analysis
+drug2cell
+
+# Notebook environment
+jupyter

@@ -1,0 +1,10 @@
+# Large raw data
+*.mtx
+*.h5ad
+*.loom
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
